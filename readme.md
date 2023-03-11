@@ -1,7 +1,7 @@
-<h3 align="center">A passionate frontend developer</h3>
+<h3 align="center">A passionate fullstack developer</h3>
 
 <p align="center">
-    <a href="https://github.com/velrino">
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
         <img src="https://github-profile-trophy.vercel.app/?username=velrino" alt="velrino" />
     </a>
     <br>
