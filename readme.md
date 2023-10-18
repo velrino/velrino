@@ -1,5 +1,19 @@
-<h3 align="center">A passionate fullstack developer</h3>
+Tech lead with deep hands-on experience in technology development. 
 
+Working with tech long enough to know that I will never know everything, so I should keep open minded and seek learning every day. 
+
+Strongly believe that <b>people</b> make a real difference in companies success. 
+
+<b>Specialities:</b> 
+<li>Problem Solving</li> 
+<li>Tech startups</li> 
+<li>Innovation</li> 
+<li>Talent Development</li> 
+<li>AI</li> 
+<li>Infrastructure</li> 
+<li>Front-end</li> 
+<li>Back-end</li> 
+<br><br>
 <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
         <img src="https://github-profile-trophy.vercel.app/?username=velrino" alt="velrino" />
