@@ -16,7 +16,7 @@
 
 <p align="center">
     <a href="https://github.com/velrino">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=donaldzou&theme=dark" alt="velrino" />
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=velrino&theme=dark" alt="velrino" />
     </a>
     <br>
 </p>
