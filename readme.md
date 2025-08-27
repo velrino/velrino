@@ -2,12 +2,26 @@
 
 
 <br>
+<br>
+
 <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-        <img src="https://github-profile-trophy.vercel.app/?username=velrino" alt="velrino" />
+        <img src="https://trophygh.kolioaris.xyz/?username=velrino" alt="velrino" />
     </a>
     <br>
 </p>
+
+<br>
+<br>
+
+<p align="center">
+    <a href="https://github.com/velrino">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=donaldzou&theme=dark" alt="velrino" />
+    </a>
+    <br>
+</p>
+<br>
+<br>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
