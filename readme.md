@@ -49,26 +49,30 @@
 **1. Me testing the AI — real-time detection**  
 That's me in front of the camera: the model picks me up live, tracks attention and reads emotional response in real time.
 
-<p align="center">
-
-https://github.com/user-attachments/assets/d9f0ccce-dc2b-4435-baac-3c0ee6b97abe
-
-</p>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/d9f0ccce-dc2b-4435-baac-3c0ee6b97abe" controls width="640"></video>
+</div>
 
 **2. In-elevator deployment — counting & demographics**  
 AdaptaMidia running inside a commercial elevator: detecting and counting people, and inferring gender and average age range per passenger group.
 
-https://github.com/user-attachments/assets/3a44064b-983c-4c57-a27f-b1d30fc05d84
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/3a44064b-983c-4c57-a27f-b1d30fc05d84" controls width="640"></video>
+</div>
 
 **3. Detection model — bounding boxes in action**  
 Example of the computer vision pipeline: the AI draws bounding boxes around each person detected by the underlying CV models.
 
-https://github.com/user-attachments/assets/2b70401d-497f-4484-93cf-bd002edcc9c3
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/2b70401d-497f-4484-93cf-bd002edcc9c3" controls width="640"></video>
+</div>
 
 **4. Dashboard — generated insights**  
 Insights being produced from the captured data: audience breakdowns, peak hours and attention maps feeding the analytics dashboard.
 
-https://github.com/user-attachments/assets/1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc" controls width="640"></video>
+</div>
 
 ---
 
