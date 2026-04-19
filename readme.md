@@ -13,15 +13,54 @@
 
 ---
 
-### 🏆 Recent Highlight
+### 🚀 AdaptaMidia — AI-Powered Out-of-Home Advertising
 
 <p align="center">
   <img width="420" alt="3rd Place — ADAPTA AI Challenge Hackathon 2025" src="https://github.com/user-attachments/assets/dcb5be7e-e79b-44e3-abf8-103d01f55dd9" />
 </p>
 
 <p align="center">
-  <strong>🥉 3rd Place · <a href="https://www.adaptamidia.com/">ADAPTA AI Challenge Hackathon</a></strong><br/>
-  <em>São Paulo · August 2025 · R$ 100.000 prize</em>
+  <strong>🥉 3rd Place · ADAPTA AI Challenge Hackathon</strong><br/>
+  <em>São Paulo · August 2025 · R$ 100.000 prize · Top 3 of 6,000+ startups</em><br/>
+  <a href="https://www.adaptamidia.com/">🌐 adaptamidia.com</a>
+</p>
+
+**[AdaptaMidia](https://www.adaptamidia.com/)** is an AI-powered platform for **Out-of-Home (OOH) advertising** — combining **Computer Vision** and **LLMs** to turn traditional outdoor media into a measurable, data-driven channel.
+
+**What it does**
+- 👁️ **Real-time audience analytics** — computer vision detects quantity, age range, gender and emotional response (LGPD-compliant, privacy-first)
+- 📊 **Measurable ROI** — campaign analytics and performance metrics instead of estimates
+- 🤖 **Automatic campaign optimization** — AI adjusts creative by location, time window and audience profile
+- 🗺️ **Actionable insights** — peak hours, attention maps, location-specific performance
+
+**Who it serves**
+- 🏢 **Establishments** (malls, elevators, restaurants) — monetize spaces with 30–50% revenue share
+- 📣 **Advertisers** — data-driven campaign management with real-time optimization
+- 💼 **Investors** — validated tech in an **R$ 8B** Brazilian market
+
+**Traction**
+- 🏆 Finalist at **Adapta Summit 2025** — top 3 out of 6,000+ startups
+- 🤝 Strategic partnerships (BitCoffee + technology providers)
+- 📺 Running installations in premium commercial elevators
+- ⚡ Enterprise-grade infrastructure — 99.9% uptime
+
+**🎬 Videos**
+
+<!-- Replace VIDEO_ID_1/2/3 with YouTube IDs (the part after v= in the URL).
+     Thumbnail format: https://img.youtube.com/vi/VIDEO_ID/0.jpg
+-->
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_1">
+    <img width="240" alt="AdaptaMidia — Video 1" src="https://img.youtube.com/vi/VIDEO_ID_1/0.jpg" />
+  </a>
+  &nbsp;
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_2">
+    <img width="240" alt="AdaptaMidia — Video 2" src="https://img.youtube.com/vi/VIDEO_ID_2/0.jpg" />
+  </a>
+  &nbsp;
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_3">
+    <img width="240" alt="AdaptaMidia — Video 3" src="https://img.youtube.com/vi/VIDEO_ID_3/0.jpg" />
+  </a>
 </p>
 
 ---
@@ -206,19 +245,6 @@ Also: `New Relic` · `DataDog`
 
 - **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS  
   [📄 View Presentation](https://drive.google.com)
-
----
-
-### 🎬 Videos
-
-<!-- Add up to 3 videos below. Format examples:
-- YouTube: [![Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-- Or plain link: [▶️ Video title](https://youtu.be/VIDEO_ID)
--->
-
-<p align="center">
-  <em>🎥 Coming soon — videos will be added here.</em>
-</p>
 
 ---
 
