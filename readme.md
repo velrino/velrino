@@ -46,22 +46,29 @@
 
 **🎬 Videos**
 
-<!-- Replace VIDEO_ID_1/2/3 with YouTube IDs (the part after v= in the URL).
-     Thumbnail format: https://img.youtube.com/vi/VIDEO_ID/0.jpg
--->
+**1. Me testing the AI — real-time detection**  
+That's me in front of the camera: the model picks me up live, tracks attention and reads emotional response in real time.
+
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID_1">
-    <img width="240" alt="AdaptaMidia — Video 1" src="https://img.youtube.com/vi/VIDEO_ID_1/0.jpg" />
-  </a>
-  &nbsp;
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID_2">
-    <img width="240" alt="AdaptaMidia — Video 2" src="https://img.youtube.com/vi/VIDEO_ID_2/0.jpg" />
-  </a>
-  &nbsp;
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID_3">
-    <img width="240" alt="AdaptaMidia — Video 3" src="https://img.youtube.com/vi/VIDEO_ID_3/0.jpg" />
-  </a>
+
+https://github.com/user-attachments/assets/d9f0ccce-dc2b-4435-baac-3c0ee6b97abe
+
 </p>
+
+**2. In-elevator deployment — counting & demographics**  
+AdaptaMidia running inside a commercial elevator: detecting and counting people, and inferring gender and average age range per passenger group.
+
+https://github.com/user-attachments/assets/3a44064b-983c-4c57-a27f-b1d30fc05d84
+
+**3. Detection model — bounding boxes in action**  
+Example of the computer vision pipeline: the AI draws bounding boxes around each person detected by the underlying CV models.
+
+https://github.com/user-attachments/assets/2b70401d-497f-4484-93cf-bd002edcc9c3
+
+**4. Dashboard — generated insights**  
+Insights being produced from the captured data: audience breakdowns, peak hours and attention maps feeding the analytics dashboard.
+
+https://github.com/user-attachments/assets/1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc
 
 ---
 
