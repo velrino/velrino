@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Denis Magalhães 👋</h1>
 
 <p align="center">
-  <strong>Founding Engineer @ Cograder </strong>
+  <strong>Founding Engineer @ Cograder</strong>
 </p>
 
 <p align="center">
@@ -13,13 +13,22 @@
 
 ---
 
+### 🏆 Recent Highlight
+
+<p align="center">
+  <img width="420" alt="3rd Place — ADAPTA AI Challenge Hackathon 2025" src="https://github.com/user-attachments/assets/dcb5be7e-e79b-44e3-abf8-103d01f55dd9" />
+</p>
+
+<p align="center">
+  <strong>🥉 3rd Place · ADAPTA AI Challenge Hackathon</strong><br/>
+  <em>São Paulo · August 2025 · R$ 100.000 prize</em>
+</p>
+
+---
+
 ### 🧠 AI & LLM
 
 I'm passionate about pushing the boundaries of what's possible with AI. Currently building **AI-powered features** at Cograder using LLMs, Fine-Tuning, and MCP (Model Context Protocol).
-
-```
-🏆 Hackathon Winner — AdaptaMídia AI Computer Vision
-```
 
 **What I work with:**  
 `LLM` · `Fine-Tuning` · `Model Context Protocol (MCP)` · `OpenAI APIs (ChatGPT, DALL-E, Whisper)` · `Computer Vision` · `OCR` · `Leonardo AI API` · `Prompt Engineering`
