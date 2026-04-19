@@ -38,6 +38,20 @@
 - 📣 **Advertisers** — data-driven campaign management with real-time optimization
 - 💼 **Investors** — validated tech in an **R$ 8B** Brazilian market
 
+**My role — built solo, end-to-end**
+
+I designed, built and shipped **the entire product by myself**:
+- 🎨 **Frontend** — React + TypeScript dashboard and display surfaces
+- ⚙️ **Backend** — Node.js / NestJS APIs and services
+- 🧠 **AI / Computer Vision** — detection, demographic inference and attention tracking
+- ☁️ **Infrastructure** — deployed on **Google Cloud** with CI/CD
+- 🗄️ **Data** — **MongoDB** powering insights and dashboards
+
+**Sponsorships & Credits**
+- ☁️ **Google Cloud** — **US$ 2,000** in cloud credits
+- 🍃 **MongoDB for Startups** — database credits & startup benefits
+- 🟢 **NVIDIA Inception (for Startups)** — GPU credits & partner program access
+
 **Traction**
 - 🏆 Finalist at **Adapta Summit 2025** — top 3 out of 6,000+ startups
 - 🤝 Strategic partnerships (BitCoffee + technology providers)
