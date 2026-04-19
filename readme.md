@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <strong>🥉 3rd Place · ADAPTA AI Challenge Hackathon</strong><br/>
+  <strong>🥉 3rd Place · <a href="https://www.adaptamidia.com/">ADAPTA AI Challenge Hackathon</a></strong><br/>
   <em>São Paulo · August 2025 · R$ 100.000 prize</em>
 </p>
 
@@ -209,11 +209,24 @@ Also: `New Relic` · `DataDog`
 
 ---
 
+### 🎬 Videos
+
+<!-- Add up to 3 videos below. Format examples:
+- YouTube: [![Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+- Or plain link: [▶️ Video title](https://youtu.be/VIDEO_ID)
+-->
+
+<p align="center">
+  <em>🎥 Coming soon — videos will be added here.</em>
+</p>
+
+---
+
 ### 🏆 Trophies
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://trophygh.kolioaris.xyz/?username=velrino&theme=onedark&no-frame=true&margin-w=10" alt="velrino" />
+    <img src="https://github-profile-trophy.vercel.app/?username=velrino&theme=onedark&no-frame=true&margin-w=10" alt="velrino" />
   </a>
 </p>
 
