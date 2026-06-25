@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://velrino.vercel.app">🌐 Portfolio</a> ·
-  <a href="https://linkedin.com/in/velrino">LinkedIn</a> ·
-  <a href="https://github.com/velrino">GitHub</a> ·
-  <a href="https://medium.com/@velrino">Medium</a>
+  <a href="https://velrino.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a> ·
+  <a href="https://linkedin.com/in/velrino" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+  <a href="https://github.com/velrino" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+  <a href="https://medium.com/@velrino" target="_blank" rel="noopener noreferrer">Medium</a>
 </p>
 
 ---
@@ -22,10 +22,10 @@
 <p align="center">
   <strong>🥉 3rd Place · ADAPTA AI Challenge Hackathon</strong><br/>
   <em>São Paulo · August 2025 · R$ 100.000 prize · Top 3 of 6,000+ startups</em><br/>
-  <a href="https://www.adaptamidia.com/">🌐 adaptamidia.com</a>
+  <a href="https://www.adaptamidia.com/" target="_blank" rel="noopener noreferrer">🌐 adaptamidia.com</a>
 </p>
 
-**[AdaptaMidia](https://www.adaptamidia.com/)** is an AI-powered platform for **Out-of-Home (OOH) advertising** — combining **Computer Vision** and **LLMs** to turn traditional outdoor media into a measurable, data-driven channel.
+**<a href="https://www.adaptamidia.com/" target="_blank" rel="noopener noreferrer">AdaptaMidia</a>** is an AI-powered platform for **Out-of-Home (OOH) advertising** — combining **Computer Vision** and **LLMs** to turn traditional outdoor media into a measurable, data-driven channel.
 
 **What it does**
 
@@ -129,7 +129,7 @@ The browser extension guiding a teacher through setup right inside their LMS:
   <video src="https://github.com/velrino/velrino/raw/main/assets/cograder/extension.mp4" controls width="640"></video>
 </div>
 
-> 🔗 Try it on the [Chrome Web Store](https://chromewebstore.google.com/search/cograder)
+> 🔗 Try it on the <a href="https://chromewebstore.google.com/search/cograder" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>
 
 ---
 
@@ -350,7 +350,7 @@ Also: `New Relic` · `DataDog`
 ### 🏆 Trophies
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener noreferrer">
     <img src="https://github-profile-trophy.vercel.app/?username=velrino&theme=onedark&no-frame=true&margin-w=10" alt="velrino" />
   </a>
 </p>
@@ -383,9 +383,9 @@ Also: `New Relic` · `DataDog`
 
 <p align="center">
   <strong>💬 Let's build something together</strong><br/>
-  <a href="mailto:velrino@gmail.com">📧 velrino@gmail.com</a> ·
-  <a href="https://linkedin.com/in/velrino">LinkedIn</a> ·
-  <a href="https://velrino.vercel.app">🌐 Portfolio</a>
+  <a href="mailto:velrino@gmail.com" target="_blank" rel="noopener noreferrer">📧 velrino@gmail.com</a> ·
+  <a href="https://linkedin.com/in/velrino" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+  <a href="https://velrino.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a>
 </p>
 
 <p align="center">
