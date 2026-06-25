@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Denis Magalhães 👋</h1>
 
 <p align="center">
-  <strong>Founding Engineer @ Cograder</strong>
+  <strong>Founding AI Full-Stack Engineer @ CoGrader</strong>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 ### 🚀 AdaptaMidia — AI-Powered Out-of-Home Advertising
 
 <p align="center">
-  <img width="420" alt="3rd Place — ADAPTA AI Challenge Hackathon 2025" src="https://github.com/user-attachments/assets/dcb5be7e-e79b-44e3-abf8-103d01f55dd9" />
+  <img width="420" alt="3rd Place — ADAPTA AI Challenge Hackathon 2025" src="assets/me.png" />
 </p>
 
 <p align="center">
@@ -28,12 +28,14 @@
 **[AdaptaMidia](https://www.adaptamidia.com/)** is an AI-powered platform for **Out-of-Home (OOH) advertising** — combining **Computer Vision** and **LLMs** to turn traditional outdoor media into a measurable, data-driven channel.
 
 **What it does**
+
 - 👁️ **Real-time audience analytics** — computer vision detects quantity, age range, gender and emotional response (LGPD-compliant, privacy-first)
 - 📊 **Measurable ROI** — campaign analytics and performance metrics instead of estimates
 - 🤖 **Automatic campaign optimization** — AI adjusts creative by location, time window and audience profile
 - 🗺️ **Actionable insights** — peak hours, attention maps, location-specific performance
 
 **Who it serves**
+
 - 🏢 **Establishments** (malls, elevators, restaurants) — monetize spaces with 30–50% revenue share
 - 📣 **Advertisers** — data-driven campaign management with real-time optimization
 - 💼 **Investors** — validated tech in an **R$ 8B** Brazilian market
@@ -41,18 +43,36 @@
 **My role — built solo, end-to-end**
 
 I designed, built and shipped **the entire product by myself**:
+
 - 🎨 **Frontend** — React + TypeScript dashboard and display surfaces
 - ⚙️ **Backend** — Node.js / NestJS APIs and services
 - 🧠 **AI / Computer Vision** — detection, demographic inference and attention tracking
 - ☁️ **Infrastructure** — deployed on **Google Cloud** with CI/CD
 - 🗄️ **Data** — **MongoDB** powering insights and dashboards
 
+**🏗️ Architecture**
+
+Cloud-native, end-to-end system I designed and built on **Google Cloud**:
+
+<p align="center">
+  <img src="assets/adapta-midia/adapta-arch.png" alt="AdaptaMidia architecture diagram" width="900" />
+</p>
+
+- 📱 **Clients** — a **Flutter / Android** app runs the **YOLO (Ultralytics)** computer-vision model on-device (edge inference, privacy-first), and a **React** admin dashboard is served from **Vercel**.
+- 🛡️ **Edge** — all client traffic flows through **Cloudflare** (DNS, CDN, TLS, protection) before reaching the backend.
+- ⚙️ **API** — a containerized backend on **Google Cloud Run** (serverless, auto-scaling) orchestrates the whole platform.
+- 🔥 **Firebase** — handles auth and realtime sync between the mobile app and the backend.
+- 🧠 **AI** — **Google Vertex AI** powers the managed ML layer for demographic inference and audience analytics.
+- 🗄️ **Data** — **MongoDB** stores insights and campaign data; **Redis** serves as cache and job queue; **Google Cloud Storage** holds media assets and processed outputs.
+
 **Sponsorships & Credits**
+
 - ☁️ **Google Cloud** — **US$ 2,000** in cloud credits
 - 🍃 **MongoDB for Startups** — database credits & startup benefits
 - 🟢 **NVIDIA Inception (for Startups)** — GPU credits & partner program access
 
 **Traction**
+
 - 🏆 Finalist at **Adapta Summit 2025** — top 3 out of 6,000+ startups
 - 🤝 Strategic partnerships (BitCoffee + technology providers)
 - 📺 Running installations in premium commercial elevators
@@ -64,35 +84,89 @@ I designed, built and shipped **the entire product by myself**:
 That's me in front of the camera: the model picks me up live, tracks attention and reads emotional response in real time.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/d9f0ccce-dc2b-4435-baac-3c0ee6b97abe" controls width="640"></video>
+  <video src="assets/adapta-midia/580382239-d9f0ccce-dc2b-4435-baac-3c0ee6b97abe.mp4" controls width="640"></video>
 </div>
 
 **2. In-elevator deployment — counting & demographics**  
 AdaptaMidia running inside a commercial elevator: detecting and counting people, and inferring gender and average age range per passenger group.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/3a44064b-983c-4c57-a27f-b1d30fc05d84" controls width="640"></video>
+  <video src="assets/adapta-midia/580382247-3a44064b-983c-4c57-a27f-b1d30fc05d84.mp4" controls width="640"></video>
 </div>
 
 **3. Detection model — bounding boxes in action**  
 Example of the computer vision pipeline: the AI draws bounding boxes around each person detected by the underlying CV models.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/2b70401d-497f-4484-93cf-bd002edcc9c3" controls width="640"></video>
+  <video src="assets/adapta-midia/580382254-2b70401d-497f-4484-93cf-bd002edcc9c3.mp4" controls width="640"></video>
 </div>
 
 **4. Dashboard — generated insights**  
 Insights being produced from the captured data: audience breakdowns, peak hours and attention maps feeding the analytics dashboard.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc" controls width="640"></video>
+  <video src="assets/adapta-midia/580382265-1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc.mp4" controls width="640"></video>
 </div>
+
+---
+
+### 📝 CoGrader — AI Grading for Teachers · _current_
+
+As **Founding AI Full-Stack Engineer**, I'm building **CoGrader** from zero — an **AI-powered grading assistant** that helps teachers grade student work faster and more consistently, aligned to their own rubrics.
+
+**What I build**
+
+- 🤖 **AI features** — LLM-powered grading, feedback generation and rubric alignment, with **Fine-Tuning** and **MCP (Model Context Protocol)**
+- 🧩 **LMS browser extension** — brings CoGrader into the tools schools already use (**Canvas, Schoology, Blackboard**), cutting onboarding friction and driving product adoption
+- 🖥️ **Product** — **React + Mantine** front-end, **Node.js / Firebase** backend, **PostHog** analytics
+- 🌐 **Cross-browser** — **Plasmo**-based builds for Chrome, Firefox and Safari
+
+**🧩 LMS Extension — demo**
+
+The browser extension guiding a teacher through setup right inside their LMS:
+
+<div align="center">
+  <video src="assets/cograder/extension.mp4" controls width="640"></video>
+</div>
+
+> 🔗 Try it on the [Chrome Web Store](https://chromewebstore.google.com/search/cograder)
+
+---
+
+### 🐐 GoatVPN — Consumer VPN at Scale
+
+**GoatVPN** is a **NordVPN-style consumer VPN** built on **WireGuard** — fast, private and unlimited access across a worldwide server fleet (live on **Google Play**). As **CTO**, I architected and shipped the **entire platform end-to-end** and built and led the engineering team.
+
+**What it does**
+
+- 🌍 **Servers worldwide** — connect through a global WireGuard fleet for low-latency, secure tunnels
+- ⚡ **Blazing-fast & unlimited** — modern WireGuard protocol, no bandwidth caps
+- 🔒 **Privacy-first** — fully encrypted traffic with a no-logs posture
+- 📺 **Unblock content** — access geo-restricted streaming and sites
+- 📱 **Multi-platform** — Android app + web client
+
+**My role — architected, shipped & led the team**
+
+- 📱 **Clients** — **Android** app and a **React** web client (auth, server picker, subscription flow), each receiving per-user WireGuard configs from the API
+- 🔐 **VPN infrastructure** — **WireGuard** core with a large server fleet orchestrated via **WGDashboard**, provisioned across **DataPacket** and **IS Hosting** for global, low-latency coverage
+- ⚙️ **Backend** — **NestJS** API on **AWS** issuing configs and managing the fleet
+- 🗄️ **Data** — **MongoDB** for users, subscriptions and server metadata; **Redis** for queue & cache
+- 💳 **Billing** — multi-gateway across **Stripe** (cards), **Cryptomus** and **NoxPay** (crypto / alternative checkout)
+- 📈 **Growth & ops** — **ClickUp** for delivery, **Slack** for messaging & alerts, and **Meta / Google** tag managers wired to subscription events for conversion tracking
+
+**Engineering highlights**
+
+- 🛰️ Automated provisioning and management of a **multi-provider server fleet** through WGDashboard
+- 💰 **Resilient multi-gateway billing** with crypto support — a single provider outage never blocks conversions
+- 🏗️ **Cloud-agnostic split** — AWS for the API, independent bare-metal/VPS providers for VPN egress
+
+> 📊 Architecture diagram coming soon.
 
 ---
 
 ### 🧠 AI & LLM
 
-I'm passionate about pushing the boundaries of what's possible with AI. Currently building **AI-powered features** at Cograder using LLMs, Fine-Tuning, and MCP (Model Context Protocol).
+I'm passionate about pushing the boundaries of what's possible with AI. Currently building **AI-powered features** at CoGrader using LLMs, Fine-Tuning, and MCP (Model Context Protocol).
 
 **What I work with:**  
 `LLM` · `Fine-Tuning` · `Model Context Protocol (MCP)` · `OpenAI APIs (ChatGPT, DALL-E, Whisper)` · `Computer Vision` · `OCR` · `Leonardo AI API` · `Prompt Engineering`
@@ -109,9 +183,10 @@ I'm passionate about pushing the boundaries of what's possible with AI. Currentl
 
 Full-Stack Engineer with **12+ years of experience** (since 2014) building scalable products from scratch. I've gone from intern to CTO, shipping products used by millions of users across banking, fintech, VPN, and edtech.
 
-**Currently:** Founding Engineer at **Cograder** — building the product from zero with Node.js, Firebase, React & AI.
+**Currently:** Founding AI Full-Stack Engineer at **CoGrader** — building the product from zero with Node.js, Firebase, React & AI.
 
 **Previously:**
+
 - **CTO / Tech Lead** at GoatVPN — built the entire platform and hired the engineering team
 - **Tech Lead** at Itaú BBA — led authentication & security squad at Latin America's largest investment bank
 - **Tech Lead** at GO-K Digital (Grafeno Digital) — led the Credit Emission fintech project
@@ -268,8 +343,7 @@ Also: `New Relic` · `DataDog`
 
 ### 🎤 Talks
 
-- **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS  
-  [📄 View Presentation](https://drive.google.com)
+- **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS
 
 ---
 
@@ -308,5 +382,12 @@ Also: `New Relic` · `DataDog`
 </p>
 
 <p align="center">
-  <em>🇧🇷 São Paulo, Brazil · Open to relocate 🌍</em>
+  <strong>💬 Let's build something together</strong><br/>
+  <a href="mailto:velrino@gmail.com">📧 velrino@gmail.com</a> ·
+  <a href="https://linkedin.com/in/velrino">LinkedIn</a> ·
+  <a href="https://velrino.vercel.app">🌐 Portfolio</a>
+</p>
+
+<p align="center">
+  <em>🇧🇷 São Paulo, Brazil · Open to relocate 🌍 · Open to new opportunities</em>
 </p>
