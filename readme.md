@@ -160,7 +160,50 @@ The browser extension guiding a teacher through setup right inside their LMS:
 - 💰 **Resilient multi-gateway billing** with crypto support — a single provider outage never blocks conversions
 - 🏗️ **Cloud-agnostic split** — AWS for the API, independent bare-metal/VPS providers for VPN egress
 
-> 📊 Architecture diagram coming soon.
+**🏗️ Architecture**
+
+Production architecture for the VPN platform:
+
+<p align="center">
+  <img src="assets/goatvpn/architecture.png" alt="GoatVPN architecture diagram" width="900" />
+</p>
+
+- 📱 **Clients** — iOS, Android, React web and a Plasmo browser extension consume the same API surface.
+- ⚙️ **API** — a **NestJS** backend on **AWS** centralizes auth, subscriptions, server metadata and VPN provisioning flows.
+- 🗄️ **Data** — **MongoDB Atlas** stores users, subscriptions and server metadata; **Redis** handles cache and queue workloads.
+- 💳 **Payments** — **Stripe**, **Cryptomus** and **NoxPay** support card, crypto and alternative checkout flows.
+- 📈 **Growth & monitoring** — subscription events feed **Google Tag Manager** and **Meta**, while **Slack** and **New Relic** support ops and observability.
+- 🔐 **VPN fleet** — **WireGuard** servers are managed through **WGDashboard** and provisioned across **DataPacket** and **IS Hosting**.
+
+---
+
+### 🤖 WPP AI — Multi-Tenant WhatsApp Support AI
+
+**WPP AI** is a multi-tenant **NestJS** API that connects WhatsApp accounts to LLM-powered support triage. It ingests messages through **Baileys**, records conversation history, analyzes support requests with LLM providers, and exposes conversations plus AI audit trails to an admin frontend.
+
+**What it does**
+
+- 💬 **WhatsApp ingestion** — connects to WhatsApp through Baileys, maps incoming private/group messages and persists normalized conversation history.
+- 🏢 **Multi-tenant routing** — resolves tenant, WhatsApp account, environment and bot profile before persistence or AI execution.
+- 🧠 **AI support triage** — uses deterministic reviewers first, then queues LLM analysis with guardrails, priority, suggested action, audience and evidence.
+- 🔁 **Provider fallback** — runs **Gemini** first and falls back to **OpenAI**, with model fallback per provider.
+- 🧾 **Auditability** — stores request text, prompt, analyzed messages, provider/model, token usage, guardrail result and error details for every analysis.
+- 🔐 **Admin API** — exposes authenticated conversation and analysis endpoints for a frontend dashboard.
+
+**🏗️ Architecture**
+
+<p align="center">
+  <img src="assets/wpp-ai/architecture.png" alt="WPP AI architecture diagram" width="900" />
+</p>
+
+- 📲 **WhatsApp adapter** — Baileys receives messages, maps protocol payloads, loads media when possible and sends quoted replies.
+- 🧩 **Orchestration** — the orchestrator decides between direct deterministic replies and queued LLM jobs.
+- 🧱 **Persistence** — MongoDB stores tenants, accounts, bot profiles, conversations, messages and analysis snapshots.
+- 🚦 **Queue** — Redis/Bull decouples WhatsApp ingestion from model execution, retries and final replies.
+- 🛡️ **Guardrails** — prompts and model outputs are wrapped and validated before replies reach users.
+- 🤖 **AI providers** — Gemini and OpenAI are abstracted behind provider fallback logic for reliability and cost control.
+
+> I can demo WPP AI live in a call without exposing private repository code.
 
 ---
 
@@ -388,6 +431,3 @@ Also: `New Relic` · `DataDog`
   <a href="https://velrino.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a>
 </p>
 
-<p align="center">
-  <em>🇧🇷 São Paulo, Brazil · Open to relocate 🌍 · Open to new opportunities</em>
-</p>
