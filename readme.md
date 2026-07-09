@@ -55,7 +55,7 @@ I designed, built and shipped **the entire product by myself**:
 Cloud-native, end-to-end system I designed and built on **Google Cloud**:
 
 <p align="center">
-  <img src="assets/adapta-midia/adapta-arch.png" alt="AdaptaMidia architecture diagram" width="900" />
+  <img src="assets/adapta-midia/architecture.png" alt="AdaptaMidia architecture diagram" width="900" />
 </p>
 
 - 📱 **Clients** — a **Flutter / Android** app runs the **YOLO (Ultralytics)** computer-vision model on-device (edge inference, privacy-first), and a **React** admin dashboard is served from **Vercel**.
@@ -137,6 +137,12 @@ The browser extension guiding a teacher through setup right inside their LMS:
 
 **GoatVPN** is a **NordVPN-style consumer VPN** built on **WireGuard** — fast, private and unlimited access across a worldwide server fleet (live on **Google Play**). As **CTO**, I architected and shipped the **entire platform end-to-end** and built and led the engineering team.
 
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.goatvpn.app&hl=en" target="_blank" rel="noopener noreferrer">
+    <img src="assets/goatvpn/goatvpn-playstore.png" alt="GoatVPN Google Play listing" width="900" />
+  </a>
+</p>
+
 **What it does**
 
 - 🌍 **Servers worldwide** — connect through a global WireGuard fleet for low-latency, secure tunnels
@@ -210,7 +216,6 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
 <div align="center">
   <video src="https://github.com/user-attachments/assets/23a0b776-4367-4208-8a95-28c33621d69d" controls width="640"></video>
 </div>
-
 
 ---
 
@@ -437,4 +442,3 @@ Also: `New Relic` · `DataDog`
   <a href="https://linkedin.com/in/velrino" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
   <a href="https://velrino.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a>
 </p>
-
