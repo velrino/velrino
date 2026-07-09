@@ -203,7 +203,14 @@ Production architecture for the VPN platform:
 - 🛡️ **Guardrails** — prompts and model outputs are wrapped and validated before replies reach users.
 - 🤖 **AI providers** — Gemini and OpenAI are abstracted behind provider fallback logic for reliability and cost control.
 
-> I can demo WPP AI live in a call without exposing private repository code.
+**🎬 Demo**
+
+WPP AI handling a WhatsApp support conversation through the LLM orchestration flow:
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/23a0b776-4367-4208-8a95-28c33621d69d" controls width="640"></video>
+</div>
+
 
 ---
 
