@@ -143,17 +143,34 @@ The browser extension guiding a teacher through setup right inside their LMS:
   </a>
 </p>
 
+**🎬 React Native mobile demos**
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <video src="https://github.com/user-attachments/assets/05b9ab96-8bb2-4e43-ae4a-96241340d9d0" controls width="260"></video>
+    </td>
+    <td align="center" width="33%">
+      <video src="https://github.com/user-attachments/assets/e0f14657-7e0e-443c-bf41-9ff8fab0f13d" controls width="260"></video>
+    </td>
+    <td align="center" width="33%">
+      <video src="https://github.com/user-attachments/assets/d32a4cbe-65d4-4718-975e-4eaecef2e4b7" controls width="260"></video>
+    </td>
+  </tr>
+</table>
+
 **What it does**
 
 - 🌍 **Servers worldwide** — connect through a global WireGuard fleet for low-latency, secure tunnels
 - ⚡ **Blazing-fast & unlimited** — modern WireGuard protocol, no bandwidth caps
 - 🔒 **Privacy-first** — fully encrypted traffic with a no-logs posture
 - 📺 **Unblock content** — access geo-restricted streaming and sites
-- 📱 **Multi-platform** — Android app + web client
+- 📱 **Multi-platform** — React Native mobile app + web client
 
 **My role — architected, shipped & led the team**
 
-- 📱 **Clients** — **Android** app and a **React** web client (auth, server picker, subscription flow), each receiving per-user WireGuard configs from the API
+- 📱 **Clients** — **React Native** mobile app and a **React** web client (auth, server picker, subscription flow), each receiving per-user WireGuard configs from the API
+- 🧩 **Mobile stack** — **React Native 0.76 / React 18** with React Native Paper, Zustand, React Router Native, Reanimated, Gesture Handler, Maps, Skia, Victory Native, Pusher, AsyncStorage, permissions and device-info integrations
 - 🔐 **VPN infrastructure** — **WireGuard** core with a large server fleet orchestrated via **WGDashboard**, provisioned across **DataPacket** and **IS Hosting** for global, low-latency coverage
 - ⚙️ **Backend** — **NestJS** API on **AWS** issuing configs and managing the fleet
 - 🗄️ **Data** — **MongoDB** for users, subscriptions and server metadata; **Redis** for queue & cache
