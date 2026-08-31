@@ -110,6 +110,55 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 
 ---
 
+### 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
+
+**ClassGame is the optional homework that takes notes for the teacher.** Built for the **All Things Agentic Hackathon** in the **Collaborative Partner — in depth** category, it turns a teacher's lesson and worksheets into short, personalized 3D review missions.
+
+<p align="center">
+  <a href="https://classgame-web-2057331207.us-east1.run.app/home?classCode=367501" target="_blank" rel="noopener noreferrer">🎮 Student game</a> ·
+  <a href="https://classgame-web-2057331207.us-east1.run.app/dashboard" target="_blank" rel="noopener noreferrer">🧑‍🏫 Teacher dashboard</a> ·
+  <a href="https://www.youtube.com/watch?v=mvsbSKlGfyE" target="_blank" rel="noopener noreferrer">🎬 Full demo</a> ·
+  <a href="https://github.com/velrino/allthingsagentichackathon" target="_blank" rel="noopener noreferrer">💻 Source code</a>
+</p>
+
+**🎬 Product demo**
+
+Mia turns a teacher's lesson into a mission, guides the student through the 3D classroom and returns evidence to the realtime dashboard:
+
+<div align="center">
+  <video src="https://github.com/velrino/velrino/raw/main/assets/classgame/demo.mp4" controls width="640"></video>
+</div>
+
+**What it does**
+
+- ✨ **Generates grounded missions** — Mia, the Multimodal Intelligence Agent powered by Gemini on Vertex AI, transforms the teacher's prompt and attachments into questions, misconception traps and traceable knowledge chunks.
+- 🧠 **Adapts every turn** — stateful, multi-turn tutoring retrieves lesson context, attempt history and student memory to vary explanations, difficulty and next actions.
+- 🎮 **Makes review playable** — students complete ten-minute missions in a responsive Three.js classroom and resume at the exact saved question and phase.
+- 📊 **Closes the loop for teachers** — the realtime dashboard shows progress, RAG provenance, learning evidence, recurring class patterns and a prompt for the next lesson.
+- 🛡️ **Keeps student and teacher contexts separate** — server-side grounding, student-safe projections, leak guards and deterministic AI fallbacks protect private observations.
+
+**What I built**
+
+- 🖥️ **Web experience** — Next.js 16, React 19, TypeScript, Tailwind CSS and Three.js for the student game and teacher dashboard.
+- ⚙️ **Agent backend** — a Go/Echo API orchestrating mission generation, grounded tutor turns, learning traces and class-level synthesis.
+- 🤖 **AI and memory** — Gemini through Vertex AI, structured outputs, realtime RAG, persistent student memory and evidence-backed teacher observations.
+- ☁️ **Production platform** — two Cloud Run services backed by Firestore, Cloud Storage, Cloud Tasks, Redis, Secret Manager, Cloud Build, Artifact Registry and Cloud Logging.
+
+**🏗️ Architecture**
+
+Production architecture for the complete teacher → Mia → student learning loop:
+
+<p align="center">
+  <img src="assets/classgame/architecture.png" alt="ClassGame production architecture diagram" width="900" />
+</p>
+
+- 🧑‍🏫 **Teacher flow** — the dashboard sends lesson context to the Go API, which uses Gemini to build versioned missions and publishes student-safe content through Firestore.
+- 🎮 **Student flow** — the 3D game combines realtime mission state with API-authorized tutor turns, exact checkpoints and persistent learning memory.
+- 🧠 **Agent loop** — each turn retrieves relevant knowledge chunks and prior evidence before Gemini chooses the explanation and next action.
+- 📊 **Learning intelligence** — Cloud Tasks finalizes attempt traces and class synthesis asynchronously, then Firestore streams the results back to the teacher.
+
+---
+
 ### 📝 CoGrader — AI Grading for Teachers · _current_
 
 As **Founding AI Full-Stack Engineer**, I'm building **CoGrader** from zero — an **AI-powered grading assistant** that helps teachers grade student work faster and more consistently, aligned to their own rubrics.
