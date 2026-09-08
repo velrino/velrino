@@ -159,6 +159,29 @@ Production architecture for the complete teacher → Mia → student learning lo
 
 ---
 
+### 🎮 Maze — 3D Browser Game
+
+**[Maze](https://velrino.co/games/maze)** is a 3D maze game with procedural worlds, collectible gems and enemy encounters — playable locally, in ranked solo runs or online groups.
+
+- 🖥️ **Web & gameplay** — Next.js, React and TypeScript, with **Three.js** for 3D rendering and **rot.js** for procedural maze generation and pathfinding.
+- 🧊 **3D workflow** — **Blender + MCP (Model Context Protocol)** for working on 3D character models, with optimized **GLB models and WebP textures** for the browser.
+- 🌐 **Online** — Firebase Authentication, WebSocket multiplayer and leaderboards.
+
+**🎬 Gameplay**
+
+<p align="center">
+  <a href="https://github.com/velrino/velrino/blob/main/assets/games/maze/gameplay.mp4">
+    <img src="assets/games/maze/gameplay-preview.jpg" alt="Watch Maze gameplay" width="640" />
+  </a><br/>
+  <a href="https://github.com/velrino/velrino/blob/main/assets/games/maze/gameplay.mp4">▶ Watch gameplay</a>
+</p>
+
+**🧊 3D character workflow in Blender**
+
+https://github.com/user-attachments/assets/78874aaa-2a26-4779-abf0-2fd8b640069e
+
+---
+
 ### 📝 CoGrader — AI Grading for Teachers · _current_
 
 As **Founding AI Full-Stack Engineer**, I'm building **CoGrader** from zero — an **AI-powered grading assistant** that helps teachers grade student work faster and more consistently, aligned to their own rubrics.

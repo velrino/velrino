@@ -1,0 +1,2 @@
+# Keep source recordings locally; publish the compressed MP4 versions.
+*.mov
