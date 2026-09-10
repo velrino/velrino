@@ -128,13 +128,13 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 **🎬 Game demo**
 
 <div align="center">
-  <video src="https://github.com/velrino/velrino/raw/main/assets/natiely/demo.mp4" controls width="640"></video>
+  <video src="https://github.com/user-attachments/assets/d5353c3e-1218-4416-b255-4524ebc73e9b" controls width="640"></video>
 </div>
 
 **🎬 Landing page**
 
 <div align="center">
-  <video src="https://github.com/velrino/velrino/raw/main/assets/natiely/landing-page.mp4" controls width="640"></video>
+  <video src="https://github.com/user-attachments/assets/9c3c69ef-72a6-4031-aed9-a176279dabd6" controls width="640"></video>
 </div>
 
 ---
