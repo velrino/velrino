@@ -110,6 +110,35 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 
 ---
 
+### ⚔️ Natiely — 3D Fantasy Adventure
+
+**[Natiely](https://natiely.com/)** is a fantasy game project built around a heroine's journey through a labyrinth to rescue her brother, combining a native 3D game, a cinematic website and a Go API.
+
+<p align="center">
+  <a href="https://natiely.com/" target="_blank" rel="noopener noreferrer">
+    <img src="assets/natiely/preview.png" alt="Natiely — The Heart of the Passages" width="900" />
+  </a>
+</p>
+
+- 🎮 **Game** — Tauri 2 / Rust, React, TypeScript and Three.js, with rot.js for procedural labyrinths.
+- 🌐 **Website** — React, Vite, TanStack Router and Tailwind CSS for the landing page and dashboard.
+- 🧊 **3D workflow** — Blender + MCP for character modeling and rig adjustments, Mixamo animations, and optimized GLB assets for runtime rendering.
+- ⚙️ **API** — Go / Echo, Firebase Authentication, MongoDB and Redis, sharing the Unshatter backend.
+
+**🎬 Game demo**
+
+<div align="center">
+  <video src="https://github.com/velrino/velrino/raw/main/assets/natiely/demo.mp4" controls width="640"></video>
+</div>
+
+**🎬 Landing page**
+
+<div align="center">
+  <video src="https://github.com/velrino/velrino/raw/main/assets/natiely/landing-page.mp4" controls width="640"></video>
+</div>
+
+---
+
 ### 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
 
 **ClassGame is the optional homework that takes notes for the teacher.** Built for the **All Things Agentic Hackathon** in the **Collaborative Partner — in depth** category, it turns a teacher's lesson and worksheets into short, personalized 3D review missions.
