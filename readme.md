@@ -112,7 +112,7 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 
 ### ⚔️ Natiely — 3D Fantasy Adventure
 
-**[Natiely](https://natiely.com/)** is a fantasy game project built around a heroine's journey through a labyrinth to rescue her brother, combining a native 3D game, a cinematic website and a Go API.
+**[Natiely](https://natiely.com/)** is a fantasy hack-and-slash built around a heroine's journey through a labyrinth to rescue her brother. It began as a Three.js prototype and evolved into a native **Unity 3D** game, with a cinematic website, a player portal and a Go backend.
 
 <p align="center">
   <a href="https://natiely.com/" target="_blank" rel="noopener noreferrer">
@@ -120,10 +120,13 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   </a>
 </p>
 
-- 🎮 **Game** — Tauri 2 / Rust, React, TypeScript and Three.js, with rot.js for procedural labyrinths.
-- 🌐 **Website** — React, Vite, TanStack Router and Tailwind CSS for the landing page and dashboard.
-- 🧊 **3D workflow** — Blender + MCP for character modeling and rig adjustments, Mixamo animations, and optimized GLB assets for runtime rendering.
-- ⚙️ **API** — Go / Echo, Firebase Authentication, MongoDB and Redis, sharing the Unshatter backend.
+- 🎮 **Game** — Unity 6 / C#, Universal Render Pipeline (URP), Cinemachine, Input System and Addressables for rendering, cameras, controls and game content.
+- 📱 **Platforms** — Native Android, iOS and macOS builds, with Google Play and Apple App Store integrations.
+- 🌐 **Website & player portal** — React, TypeScript, Vite, TanStack Router / Query and Tailwind CSS for the cinematic landing page, player dashboard and web store.
+- 🧊 **3D workflow** — Meshy for AI-generated 3D assets, Blender + MCP for modeling, rigging and skin-weight adjustments, and Mixamo for character animations, with mesh and texture optimization for Unity.
+- ⚙️ **Backend & accounts** — Go / Echo, Firebase Authentication, MongoDB and Redis for player accounts, game services, persistence and caching.
+- 💳 **Commerce** — RevenueCat for native purchases through Apple App Store and Google Play, Stripe Checkout for the web store, and a Go backend for Gold balances, purchase fulfillment and entitlement verification.
+- 📊 **Monitoring & engagement** — Sentry for error monitoring, PostHog for web analytics and OneSignal for push notifications.
 
 **🎬 Game demo**
 
