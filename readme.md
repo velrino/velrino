@@ -134,7 +134,7 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 **🎬 Landing page**
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/9c3c69ef-72a6-4031-aed9-a176279dabd6" controls width="640"></video>
+  <video src="https://github.com/user-attachments/assets/24a1ff63-c16c-4141-9a35-8fca2df30c00" controls width="640"></video>
 </div>
 
 ---
