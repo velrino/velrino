@@ -517,6 +517,20 @@ Also: `New Relic` · `DataDog`
 
 ---
 
+### 🌌 Portfolio — Cinematic Backgrounds
+
+Original background videos used by [velrino.co](https://velrino.co/old), served directly from this repository.
+
+**Desktop — landscape**
+
+<video src="https://github.com/velrino/velrino/raw/main/assets/portfolio/landscape.mp4" controls width="640"></video>
+
+**Mobile — portrait**
+
+<video src="https://github.com/velrino/velrino/raw/main/assets/portfolio/portrait.mp4" controls width="320"></video>
+
+---
+
 ### 🎤 Talks
 
 - **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS
