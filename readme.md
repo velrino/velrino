@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Denis Magalhães 👋</h1>
 
 <p align="center">
-  <strong>Founding AI Full-Stack Engineer @ CoGrader</strong>
+  <strong>Founding AI Full-Stack Engineer</strong>
 </p>
 
 <p align="center">
@@ -150,7 +150,7 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   <a href="https://classgame-web-2057331207.us-east1.run.app/home?classCode=367501" target="_blank" rel="noopener noreferrer">🎮 Student game</a> ·
   <a href="https://classgame-web-2057331207.us-east1.run.app/dashboard" target="_blank" rel="noopener noreferrer">🧑‍🏫 Teacher dashboard</a> ·
   <a href="https://www.youtube.com/watch?v=mvsbSKlGfyE" target="_blank" rel="noopener noreferrer">🎬 Full demo</a> ·
-  <a href="https://github.com/velrino/allthingsagentichackathon" target="_blank" rel="noopener noreferrer">💻 Source code</a>
+  <a href="https://github.com/velrino/classgame" target="_blank" rel="noopener noreferrer">💻 Source code</a>
 </p>
 
 **🎬 Product demo**
