@@ -13,7 +13,7 @@
 
 ---
 
-### 🚀 AdaptaMidia — AI-Powered Out-of-Home Advertising
+# 🚀 AdaptaMidia — AI-Powered Out-of-Home Advertising
 
 <p align="center">
   <img width="420" alt="3rd Place — ADAPTA AI Challenge Hackathon 2025" src="assets/me.png" />
@@ -122,7 +122,7 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 
 ---
 
-### ⚔️ Natiely — 3D Fantasy Adventure
+# ⚔️ Natiely — 3D Fantasy Adventure
 
 **[Natiely](https://natiely.com/)** is a fantasy hack-and-slash built around a heroine's journey through a labyrinth to rescue her brother. It began as a Three.js prototype and evolved into a native **Unity 3D** game, with a cinematic website, a player portal and a Go backend.
 
@@ -168,7 +168,7 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
 
 ---
 
-### 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
+# 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
 
 **ClassGame is the optional homework that takes notes for the teacher.** Built for the **All Things Agentic Hackathon** in the **Collaborative Partner — in depth** category, it turns a teacher's lesson and worksheets into short, personalized 3D review missions.
 
@@ -223,7 +223,7 @@ Production architecture for the complete teacher → Mia → student learning lo
 
 ---
 
-### 🎮 Maze — 3D Browser Game
+# 🎮 Maze — 3D Browser Game
 
 **[Maze](https://velrino.co/games/maze)** is a 3D maze game with procedural worlds, collectible gems and enemy encounters — playable locally, in ranked solo runs or online groups.
 
@@ -248,7 +248,7 @@ https://github.com/user-attachments/assets/78874aaa-2a26-4779-abf0-2fd8b640069e
 
 ---
 
-### 📝 CoGrader — AI Grading for Teachers · _current_
+# 📝 CoGrader — AI Grading for Teachers · _current_
 
 As **Founding AI Full-Stack Engineer**, I'm building **CoGrader** from zero — an **AI-powered grading assistant** that helps teachers grade student work faster and more consistently, aligned to their own rubrics.
 
@@ -273,7 +273,7 @@ The browser extension guiding a teacher through setup right inside their LMS:
 
 ---
 
-### 🐐 GoatVPN — Consumer VPN at Scale
+# 🐐 GoatVPN — Consumer VPN at Scale
 
 **GoatVPN** is a **NordVPN-style consumer VPN** built on **WireGuard** — fast, private and unlimited access across a worldwide server fleet (live on **Google Play**). As **CTO**, I architected and shipped the **entire platform end-to-end** and built and led the engineering team.
 
@@ -348,7 +348,7 @@ Production architecture for the VPN platform:
 
 ---
 
-### 🤖 WPP AI — Multi-Tenant WhatsApp Support AI
+# 🤖 WPP AI — Multi-Tenant WhatsApp Support AI
 
 **WPP AI** is a multi-tenant **NestJS** API that connects WhatsApp accounts to LLM-powered support triage. It ingests messages through **Baileys**, records conversation history, analyzes support requests with LLM providers, and exposes conversations plus AI audit trails to an admin frontend.
 
@@ -388,7 +388,7 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
 
 ---
 
-### 🧩 Velrino UI — Accessible React Components
+# 🧩 Velrino UI — Accessible React Components
 
 **[Velrino UI](https://github.com/velrino/velrino-ui)** is a library of **accessible, themeable React components** with optional **sci-fi surfaces**, built for independent React applications. It grew out of HackUniverse's gallery, dialog frame and globe loader, while keeping each application's colors, fonts, brand, localization and business logic independent.
 
@@ -416,7 +416,7 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
 
 ---
 
-### 🧠 AI & LLM
+# 🧠 AI & LLM
 
 I'm passionate about pushing the boundaries of what's possible with AI. Currently building **AI-powered features** at CoGrader using LLMs, Fine-Tuning, and MCP (Model Context Protocol).
 
@@ -431,7 +431,7 @@ I'm passionate about pushing the boundaries of what's possible with AI. Currentl
 
 ---
 
-### 🚀 What I Do
+# 🚀 What I Do
 
 Full-Stack Engineer with **12+ years of experience** (since 2014) building scalable products from scratch. I've gone from intern to CTO, shipping products used by millions of users across banking, fintech, VPN, and edtech.
 
@@ -448,7 +448,7 @@ Full-Stack Engineer with **12+ years of experience** (since 2014) building scala
 
 ---
 
-### 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 **Languages**
 
@@ -593,7 +593,7 @@ Also: `New Relic` · `DataDog`
 
 ---
 
-### 🌌 Portfolio — Cinematic Backgrounds
+# 🌌 Portfolio — Cinematic Backgrounds
 
 Original background videos used by [velrino.co](https://velrino.co/old), served directly from this repository.
 
@@ -607,13 +607,13 @@ Original background videos used by [velrino.co](https://velrino.co/old), served 
 
 ---
 
-### 🎤 Talks
+# 🎤 Talks
 
 - **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS
 
 ---
 
-### 🏆 Trophies
+# 🏆 Trophies
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener noreferrer">
@@ -623,7 +623,7 @@ Original background videos used by [velrino.co](https://velrino.co/old), served 
 
 ---
 
-### 📊 GitHub Stats
+# 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=velrino&show_icons=true&theme=onedark&hide_border=true&count_private=true" height="165" />
