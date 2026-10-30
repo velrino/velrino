@@ -11,7 +11,11 @@
   <a href="https://medium.com/@velrino" target="_blank" rel="noopener noreferrer">Medium</a>
 </p>
 
+<br />
+
 ---
+
+<br />
 
 # 🚀 AdaptaMidia — AI-Powered Out-of-Home Advertising
 
@@ -120,7 +124,11 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   <video src="https://github.com/velrino/velrino/raw/main/assets/adapta-midia/580382265-1bf4d8e3-7d45-4a70-87ea-49c0e6f3c9dc.mp4" controls width="640"></video>
 </div>
 
+<br />
+
 ---
+
+<br />
 
 # ⚔️ Natiely — 3D Fantasy Adventure
 
@@ -166,7 +174,11 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   <a href="https://open.spotify.com/album/2pYcI7YSBdSFN22nt2Fxbb?si=46UrSeK3SfaXQBGpFvjPtA" target="_blank" rel="noopener noreferrer">🎧 Listen on Spotify</a>
 </p>
 
+<br />
+
 ---
+
+<br />
 
 # 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
 
@@ -221,7 +233,11 @@ Production architecture for the complete teacher → Mia → student learning lo
 | 🧠 **Agent loop** | each turn retrieves relevant knowledge chunks and prior evidence before Gemini chooses the explanation and next action. |
 | 📊 **Learning intelligence** | Cloud Tasks finalizes attempt traces and class synthesis asynchronously, then Firestore streams the results back to the teacher. |
 
+<br />
+
 ---
+
+<br />
 
 # 🎮 Maze — 3D Browser Game
 
@@ -246,7 +262,11 @@ Production architecture for the complete teacher → Mia → student learning lo
 
 https://github.com/user-attachments/assets/78874aaa-2a26-4779-abf0-2fd8b640069e
 
+<br />
+
 ---
+
+<br />
 
 # 📝 CoGrader — AI Grading for Teachers · _current_
 
@@ -271,7 +291,11 @@ The browser extension guiding a teacher through setup right inside their LMS:
 
 > 🔗 Try it on the <a href="https://chromewebstore.google.com/search/cograder" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>
 
+<br />
+
 ---
+
+<br />
 
 # 🐐 GoatVPN — Consumer VPN at Scale
 
@@ -346,7 +370,11 @@ Production architecture for the VPN platform:
 | 📈 **Growth & monitoring** | subscription events feed **Google Tag Manager** and **Meta**, while **Slack** and **New Relic** support ops and observability. |
 | 🔐 **VPN fleet** | **WireGuard** servers are managed through **WGDashboard** and provisioned across **DataPacket** and **IS Hosting**. |
 
+<br />
+
 ---
+
+<br />
 
 # 🤖 WPP AI — Multi-Tenant WhatsApp Support AI
 
@@ -386,7 +414,11 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
   <video src="https://github.com/user-attachments/assets/23a0b776-4367-4208-8a95-28c33621d69d" controls width="640"></video>
 </div>
 
+<br />
+
 ---
+
+<br />
 
 # 🧩 Velrino UI — Accessible React Components
 
@@ -414,7 +446,11 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
 | 🌐 **Interactive gallery** | Live component examples with English/Portuguese copy, theme switching and surface previews. |
 | 🤝 **Shared across projects** | Used by [my portfolio](https://velrino.co/) and [HackUniverse](https://hackuniverse.vercel.app/). |
 
+<br />
+
 ---
+
+<br />
 
 # 🧠 AI & LLM
 
@@ -429,7 +465,11 @@ I'm passionate about pushing the boundaries of what's possible with AI. Currentl
   <img height="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jupyter_notebook.png" alt="Jupyter" title="Jupyter" />
 </p>
 
+<br />
+
 ---
+
+<br />
 
 # 🚀 What I Do
 
@@ -446,7 +486,11 @@ Full-Stack Engineer with **12+ years of experience** (since 2014) building scala
 - **Software Engineer** at Itaú Unibanco — mobile banking apps for millions of users
 - **Software Engineer** at Accenture — enterprise solutions for Porto Seguro
 
+<br />
+
 ---
+
+<br />
 
 # 🛠️ Tech Stack
 
@@ -591,7 +635,11 @@ Also: `New Relic` · `DataDog`
   <img height="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/figma.png" alt="Figma" title="Figma" />
 </p>
 
+<br />
+
 ---
+
+<br />
 
 # 🌌 Portfolio — Cinematic Backgrounds
 
@@ -605,13 +653,21 @@ Original background videos used by [velrino.co](https://velrino.co/old), served 
 
 <video src="https://github.com/velrino/velrino/raw/main/assets/portfolio/portrait.mp4" controls width="320"></video>
 
+<br />
+
 ---
+
+<br />
 
 # 🎤 Talks
 
 - **ChatGPT in WhatsApp** — Integrating ChatGPT into WhatsApp using Facebook's official API with NestJS
 
+<br />
+
 ---
+
+<br />
 
 # 🏆 Trophies
 
@@ -621,7 +677,11 @@ Original background videos used by [velrino.co](https://velrino.co/old), served 
   </a>
 </p>
 
+<br />
+
 ---
+
+<br />
 
 # 📊 GitHub Stats
 
@@ -630,7 +690,11 @@ Original background videos used by [velrino.co](https://velrino.co/old), served 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=velrino&theme=onedark&hide_border=true" height="165" />
 </p>
 
+<br />
+
 ---
+
+<br />
 
 <p align="center">
   <a href="https://linkedin.com/in/velrino" target="_blank">
