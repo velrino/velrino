@@ -154,6 +154,18 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   <video src="https://github.com/user-attachments/assets/24a1ff63-c16c-4141-9a35-8fca2df30c00" controls width="640"></video>
 </div>
 
+**🎵 Original soundtrack**
+
+<p align="center">
+  <a href="https://open.spotify.com/album/2pYcI7YSBdSFN22nt2Fxbb?si=46UrSeK3SfaXQBGpFvjPtA" target="_blank" rel="noopener noreferrer">
+    <img src="assets/natiely/natiely-ost-cover-snow-castle.png" alt="Natiely — Original Soundtrack, Snow Castle cover" width="420" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/album/2pYcI7YSBdSFN22nt2Fxbb?si=46UrSeK3SfaXQBGpFvjPtA" target="_blank" rel="noopener noreferrer">🎧 Listen on Spotify</a>
+</p>
+
 ---
 
 ### 🏫 ClassGame — Stateful AI Tutoring in a 3D Classroom
