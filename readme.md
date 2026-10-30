@@ -29,26 +29,32 @@
 
 **What it does**
 
-- 👁️ **Real-time audience analytics** — computer vision detects quantity, age range, gender and emotional response (LGPD-compliant, privacy-first)
-- 📊 **Measurable ROI** — campaign analytics and performance metrics instead of estimates
-- 🤖 **Automatic campaign optimization** — AI adjusts creative by location, time window and audience profile
-- 🗺️ **Actionable insights** — peak hours, attention maps, location-specific performance
+| Capability | Description |
+| --- | --- |
+| 👁️ **Real-time audience analytics** | computer vision detects quantity, age range, gender and emotional response (LGPD-compliant, privacy-first) |
+| 📊 **Measurable ROI** | campaign analytics and performance metrics instead of estimates |
+| 🤖 **Automatic campaign optimization** | AI adjusts creative by location, time window and audience profile |
+| 🗺️ **Actionable insights** | peak hours, attention maps, location-specific performance |
 
 **Who it serves**
 
-- 🏢 **Establishments** (malls, elevators, restaurants) — monetize spaces with 30–50% revenue share
-- 📣 **Advertisers** — data-driven campaign management with real-time optimization
-- 💼 **Investors** — validated tech in an **R$ 8B** Brazilian market
+| Audience | Value |
+| --- | --- |
+| 🏢 **Establishments** (malls, elevators, restaurants) | monetize spaces with 30–50% revenue share |
+| 📣 **Advertisers** | data-driven campaign management with real-time optimization |
+| 💼 **Investors** | validated tech in an **R$ 8B** Brazilian market |
 
 **My role — built solo, end-to-end**
 
 I designed, built and shipped **the entire product by myself**:
 
-- 🎨 **Frontend** — React + TypeScript dashboard and display surfaces
-- ⚙️ **Backend** — Node.js / NestJS APIs and services
-- 🧠 **AI / Computer Vision** — detection, demographic inference and attention tracking
-- ☁️ **Infrastructure** — deployed on **Google Cloud** with CI/CD
-- 🗄️ **Data** — **MongoDB** powering insights and dashboards
+| Area | Contribution |
+| --- | --- |
+| 🎨 **Frontend** | React + TypeScript dashboard and display surfaces |
+| ⚙️ **Backend** | Node.js / NestJS APIs and services |
+| 🧠 **AI / Computer Vision** | detection, demographic inference and attention tracking |
+| ☁️ **Infrastructure** | deployed on **Google Cloud** with CI/CD |
+| 🗄️ **Data** | **MongoDB** powering insights and dashboards |
 
 **🏗️ Architecture**
 
@@ -58,25 +64,31 @@ Cloud-native, end-to-end system I designed and built on **Google Cloud**:
   <img src="assets/adapta-midia/architecture.png" alt="AdaptaMidia architecture diagram" width="900" />
 </p>
 
-- 📱 **Clients** — a **Flutter / Android** app runs the **YOLO (Ultralytics)** computer-vision model on-device (edge inference, privacy-first), and a **React** admin dashboard is served from **Vercel**.
-- 🛡️ **Edge** — all client traffic flows through **Cloudflare** (DNS, CDN, TLS, protection) before reaching the backend.
-- ⚙️ **API** — a containerized backend on **Google Cloud Run** (serverless, auto-scaling) orchestrates the whole platform.
-- 🔥 **Firebase** — handles auth and realtime sync between the mobile app and the backend.
-- 🧠 **AI** — **Google Vertex AI** powers the managed ML layer for demographic inference and audience analytics.
-- 🗄️ **Data** — **MongoDB** stores insights and campaign data; **Redis** serves as cache and job queue; **Google Cloud Storage** holds media assets and processed outputs.
+| Layer | Implementation |
+| --- | --- |
+| 📱 **Clients** | a **Flutter / Android** app runs the **YOLO (Ultralytics)** computer-vision model on-device (edge inference, privacy-first), and a **React** admin dashboard is served from **Vercel**. |
+| 🛡️ **Edge** | all client traffic flows through **Cloudflare** (DNS, CDN, TLS, protection) before reaching the backend. |
+| ⚙️ **API** | a containerized backend on **Google Cloud Run** (serverless, auto-scaling) orchestrates the whole platform. |
+| 🔥 **Firebase** | handles auth and realtime sync between the mobile app and the backend. |
+| 🧠 **AI** | **Google Vertex AI** powers the managed ML layer for demographic inference and audience analytics. |
+| 🗄️ **Data** | **MongoDB** stores insights and campaign data; **Redis** serves as cache and job queue; **Google Cloud Storage** holds media assets and processed outputs. |
 
 **Sponsorships & Credits**
 
-- ☁️ **Google Cloud** — **US$ 2,000** in cloud credits
-- 🍃 **MongoDB for Startups** — database credits & startup benefits
-- 🟢 **NVIDIA Inception (for Startups)** — GPU credits & partner program access
+| Sponsor | Support |
+| --- | --- |
+| ☁️ **Google Cloud** | **US$ 2,000** in cloud credits |
+| 🍃 **MongoDB for Startups** | database credits & startup benefits |
+| 🟢 **NVIDIA Inception (for Startups)** | GPU credits & partner program access |
 
 **Traction**
 
-- 🏆 Finalist at **Adapta Summit 2025** — top 3 out of 6,000+ startups
-- 🤝 Strategic partnerships (BitCoffee + technology providers)
-- 📺 Running installations in premium commercial elevators
-- ⚡ Enterprise-grade infrastructure — 99.9% uptime
+| Milestone | Details |
+| --- | --- |
+| 🏆 Finalist at **Adapta Summit 2025** | top 3 out of 6,000+ startups |
+| 🤝 Strategic partnerships | (BitCoffee + technology providers) |
+| 📺 Installations | Running installations in premium commercial elevators |
+| ⚡ Enterprise-grade infrastructure | 99.9% uptime |
 
 **🎬 Videos**
 
@@ -120,13 +132,15 @@ Insights being produced from the captured data: audience breakdowns, peak hours 
   </a>
 </p>
 
-- 🎮 **Game** — Unity 6 / C#, Universal Render Pipeline (URP), Cinemachine, Input System and Addressables for rendering, cameras, controls and game content.
-- 📱 **Platforms** — Native Android, iOS and macOS builds, with Google Play and Apple App Store integrations.
-- 🌐 **Website & player portal** — React, TypeScript, Vite, TanStack Router / Query and Tailwind CSS for the cinematic landing page, player dashboard and web store.
-- 🧊 **3D workflow** — Meshy for AI-generated 3D assets, Blender + MCP for modeling, rigging and skin-weight adjustments, and Mixamo for character animations, with mesh and texture optimization for Unity.
-- ⚙️ **Backend & accounts** — Go / Echo, Firebase Authentication, MongoDB and Redis for player accounts, game services, persistence and caching.
-- 💳 **Commerce** — RevenueCat for native purchases through Apple App Store and Google Play, Stripe Checkout for the web store, and a Go backend for Gold balances, purchase fulfillment and entitlement verification.
-- 📊 **Monitoring & engagement** — Sentry for error monitoring, PostHog for web analytics and OneSignal for push notifications.
+| Area | Implementation |
+| --- | --- |
+| 🎮 **Game** | Unity 6 / C#, Universal Render Pipeline (URP), Cinemachine, Input System and Addressables for rendering, cameras, controls and game content. |
+| 📱 **Platforms** | Native Android, iOS and macOS builds, with Google Play and Apple App Store integrations. |
+| 🌐 **Website & player portal** | React, TypeScript, Vite, TanStack Router / Query and Tailwind CSS for the cinematic landing page, player dashboard and web store. |
+| 🧊 **3D workflow** | Meshy for AI-generated 3D assets, Blender + MCP for modeling, rigging and skin-weight adjustments, and Mixamo for character animations, with mesh and texture optimization for Unity. |
+| ⚙️ **Backend & accounts** | Go / Echo, Firebase Authentication, MongoDB and Redis for player accounts, game services, persistence and caching. |
+| 💳 **Commerce** | RevenueCat for native purchases through Apple App Store and Google Play, Stripe Checkout for the web store, and a Go backend for Gold balances, purchase fulfillment and entitlement verification. |
+| 📊 **Monitoring & engagement** | Sentry for error monitoring, PostHog for web analytics and OneSignal for push notifications. |
 
 **🎬 Game demo**
 
@@ -163,18 +177,22 @@ Mia turns a teacher's lesson into a mission, guides the student through the 3D c
 
 **What it does**
 
-- ✨ **Generates grounded missions** — Mia, the Multimodal Intelligence Agent powered by Gemini on Vertex AI, transforms the teacher's prompt and attachments into questions, misconception traps and traceable knowledge chunks.
-- 🧠 **Adapts every turn** — stateful, multi-turn tutoring retrieves lesson context, attempt history and student memory to vary explanations, difficulty and next actions.
-- 🎮 **Makes review playable** — students complete ten-minute missions in a responsive Three.js classroom and resume at the exact saved question and phase.
-- 📊 **Closes the loop for teachers** — the realtime dashboard shows progress, RAG provenance, learning evidence, recurring class patterns and a prompt for the next lesson.
-- 🛡️ **Keeps student and teacher contexts separate** — server-side grounding, student-safe projections, leak guards and deterministic AI fallbacks protect private observations.
+| Capability | Description |
+| --- | --- |
+| ✨ **Generates grounded missions** | Mia, the Multimodal Intelligence Agent powered by Gemini on Vertex AI, transforms the teacher's prompt and attachments into questions, misconception traps and traceable knowledge chunks. |
+| 🧠 **Adapts every turn** | stateful, multi-turn tutoring retrieves lesson context, attempt history and student memory to vary explanations, difficulty and next actions. |
+| 🎮 **Makes review playable** | students complete ten-minute missions in a responsive Three.js classroom and resume at the exact saved question and phase. |
+| 📊 **Closes the loop for teachers** | the realtime dashboard shows progress, RAG provenance, learning evidence, recurring class patterns and a prompt for the next lesson. |
+| 🛡️ **Keeps student and teacher contexts separate** | server-side grounding, student-safe projections, leak guards and deterministic AI fallbacks protect private observations. |
 
 **What I built**
 
-- 🖥️ **Web experience** — Next.js 16, React 19, TypeScript, Tailwind CSS and Three.js for the student game and teacher dashboard.
-- ⚙️ **Agent backend** — a Go/Echo API orchestrating mission generation, grounded tutor turns, learning traces and class-level synthesis.
-- 🤖 **AI and memory** — Gemini through Vertex AI, structured outputs, realtime RAG, persistent student memory and evidence-backed teacher observations.
-- ☁️ **Production platform** — two Cloud Run services backed by Firestore, Cloud Storage, Cloud Tasks, Redis, Secret Manager, Cloud Build, Artifact Registry and Cloud Logging.
+| Area | Contribution |
+| --- | --- |
+| 🖥️ **Web experience** | Next.js 16, React 19, TypeScript, Tailwind CSS and Three.js for the student game and teacher dashboard. |
+| ⚙️ **Agent backend** | a Go/Echo API orchestrating mission generation, grounded tutor turns, learning traces and class-level synthesis. |
+| 🤖 **AI and memory** | Gemini through Vertex AI, structured outputs, realtime RAG, persistent student memory and evidence-backed teacher observations. |
+| ☁️ **Production platform** | two Cloud Run services backed by Firestore, Cloud Storage, Cloud Tasks, Redis, Secret Manager, Cloud Build, Artifact Registry and Cloud Logging. |
 
 **🏗️ Architecture**
 
@@ -184,10 +202,12 @@ Production architecture for the complete teacher → Mia → student learning lo
   <img src="assets/classgame/architecture.png" alt="ClassGame production architecture diagram" width="900" />
 </p>
 
-- 🧑‍🏫 **Teacher flow** — the dashboard sends lesson context to the Go API, which uses Gemini to build versioned missions and publishes student-safe content through Firestore.
-- 🎮 **Student flow** — the 3D game combines realtime mission state with API-authorized tutor turns, exact checkpoints and persistent learning memory.
-- 🧠 **Agent loop** — each turn retrieves relevant knowledge chunks and prior evidence before Gemini chooses the explanation and next action.
-- 📊 **Learning intelligence** — Cloud Tasks finalizes attempt traces and class synthesis asynchronously, then Firestore streams the results back to the teacher.
+| Flow | Implementation |
+| --- | --- |
+| 🧑‍🏫 **Teacher flow** | the dashboard sends lesson context to the Go API, which uses Gemini to build versioned missions and publishes student-safe content through Firestore. |
+| 🎮 **Student flow** | the 3D game combines realtime mission state with API-authorized tutor turns, exact checkpoints and persistent learning memory. |
+| 🧠 **Agent loop** | each turn retrieves relevant knowledge chunks and prior evidence before Gemini chooses the explanation and next action. |
+| 📊 **Learning intelligence** | Cloud Tasks finalizes attempt traces and class synthesis asynchronously, then Firestore streams the results back to the teacher. |
 
 ---
 
@@ -195,9 +215,11 @@ Production architecture for the complete teacher → Mia → student learning lo
 
 **[Maze](https://velrino.co/games/maze)** is a 3D maze game with procedural worlds, collectible gems and enemy encounters — playable locally, in ranked solo runs or online groups.
 
-- 🖥️ **Web & gameplay** — Next.js, React and TypeScript, with **Three.js** for 3D rendering and **rot.js** for procedural maze generation and pathfinding.
-- 🧊 **3D workflow** — **Blender + MCP (Model Context Protocol)** for working on 3D character models, with optimized **GLB models and WebP textures** for the browser.
-- 🌐 **Online** — Firebase Authentication, WebSocket multiplayer and leaderboards.
+| Area | Implementation |
+| --- | --- |
+| 🖥️ **Web & gameplay** | Next.js, React and TypeScript, with **Three.js** for 3D rendering and **rot.js** for procedural maze generation and pathfinding. |
+| 🧊 **3D workflow** | **Blender + MCP (Model Context Protocol)** for working on 3D character models, with optimized **GLB models and WebP textures** for the browser. |
+| 🌐 **Online** | Firebase Authentication, WebSocket multiplayer and leaderboards. |
 
 **🎬 Gameplay**
 
@@ -220,10 +242,12 @@ As **Founding AI Full-Stack Engineer**, I'm building **CoGrader** from zero — 
 
 **What I build**
 
-- 🤖 **AI features** — LLM-powered grading, feedback generation and rubric alignment, with **Fine-Tuning** and **MCP (Model Context Protocol)**
-- 🧩 **LMS browser extension** — brings CoGrader into the tools schools already use (**Canvas, Schoology, Blackboard**), cutting onboarding friction and driving product adoption
-- 🖥️ **Product** — **React + Mantine** front-end, **Node.js / Firebase** backend, **PostHog** analytics
-- 🌐 **Cross-browser** — **Plasmo**-based builds for Chrome, Firefox and Safari
+| Area | Contribution |
+| --- | --- |
+| 🤖 **AI features** | LLM-powered grading, feedback generation and rubric alignment, with **Fine-Tuning** and **MCP (Model Context Protocol)** |
+| 🧩 **LMS browser extension** | brings CoGrader into the tools schools already use (**Canvas, Schoology, Blackboard**), cutting onboarding friction and driving product adoption |
+| 🖥️ **Product** | **React + Mantine** front-end, **Node.js / Firebase** backend, **PostHog** analytics |
+| 🌐 **Cross-browser** | **Plasmo**-based builds for Chrome, Firefox and Safari |
 
 **🧩 LMS Extension — demo**
 
@@ -265,27 +289,33 @@ The browser extension guiding a teacher through setup right inside their LMS:
 
 **What it does**
 
-- 🌍 **Servers worldwide** — connect through a global WireGuard fleet for low-latency, secure tunnels
-- ⚡ **Blazing-fast & unlimited** — modern WireGuard protocol, no bandwidth caps
-- 🔒 **Privacy-first** — fully encrypted traffic with a no-logs posture
-- 📺 **Unblock content** — access geo-restricted streaming and sites
-- 📱 **Multi-platform** — React Native mobile app + web client
+| Capability | Description |
+| --- | --- |
+| 🌍 **Servers worldwide** | connect through a global WireGuard fleet for low-latency, secure tunnels |
+| ⚡ **Blazing-fast & unlimited** | modern WireGuard protocol, no bandwidth caps |
+| 🔒 **Privacy-first** | fully encrypted traffic with a no-logs posture |
+| 📺 **Unblock content** | access geo-restricted streaming and sites |
+| 📱 **Multi-platform** | React Native mobile app + web client |
 
 **My role — architected, shipped & led the team**
 
-- 📱 **Clients** — **React Native** mobile app and a **React** web client (auth, server picker, subscription flow), each receiving per-user WireGuard configs from the API
-- 🧩 **Mobile stack** — **React Native 0.76 / React 18** with React Native Paper, Zustand, React Router Native, Reanimated, Gesture Handler, Maps, Skia, Victory Native, Pusher, AsyncStorage, permissions and device-info integrations
-- 🔐 **VPN infrastructure** — **WireGuard** core with a large server fleet orchestrated via **WGDashboard**, provisioned across **DataPacket** and **IS Hosting** for global, low-latency coverage
-- ⚙️ **Backend** — **NestJS** API on **AWS** issuing configs and managing the fleet
-- 🗄️ **Data** — **MongoDB** for users, subscriptions and server metadata; **Redis** for queue & cache
-- 💳 **Billing** — multi-gateway across **Stripe** (cards), **Cryptomus** and **NoxPay** (crypto / alternative checkout)
-- 📈 **Growth & ops** — **ClickUp** for delivery, **Slack** for messaging & alerts, and **Meta / Google** tag managers wired to subscription events for conversion tracking
+| Area | Contribution |
+| --- | --- |
+| 📱 **Clients** | **React Native** mobile app and a **React** web client (auth, server picker, subscription flow), each receiving per-user WireGuard configs from the API |
+| 🧩 **Mobile stack** | **React Native 0.76 / React 18** with React Native Paper, Zustand, React Router Native, Reanimated, Gesture Handler, Maps, Skia, Victory Native, Pusher, AsyncStorage, permissions and device-info integrations |
+| 🔐 **VPN infrastructure** | **WireGuard** core with a large server fleet orchestrated via **WGDashboard**, provisioned across **DataPacket** and **IS Hosting** for global, low-latency coverage |
+| ⚙️ **Backend** | **NestJS** API on **AWS** issuing configs and managing the fleet |
+| 🗄️ **Data** | **MongoDB** for users, subscriptions and server metadata; **Redis** for queue & cache |
+| 💳 **Billing** | multi-gateway across **Stripe** (cards), **Cryptomus** and **NoxPay** (crypto / alternative checkout) |
+| 📈 **Growth & ops** | **ClickUp** for delivery, **Slack** for messaging & alerts, and **Meta / Google** tag managers wired to subscription events for conversion tracking |
 
 **Engineering highlights**
 
-- 🛰️ Automated provisioning and management of a **multi-provider server fleet** through WGDashboard
-- 💰 **Resilient multi-gateway billing** with crypto support — a single provider outage never blocks conversions
-- 🏗️ **Cloud-agnostic split** — AWS for the API, independent bare-metal/VPS providers for VPN egress
+| Highlight | Details |
+| --- | --- |
+| 🛰️ Fleet management | Automated provisioning and management of a **multi-provider server fleet** through WGDashboard |
+| 💰 **Resilient multi-gateway billing** with crypto support | a single provider outage never blocks conversions |
+| 🏗️ **Cloud-agnostic split** | AWS for the API, independent bare-metal/VPS providers for VPN egress |
 
 **🏗️ Architecture**
 
@@ -295,12 +325,14 @@ Production architecture for the VPN platform:
   <img src="assets/goatvpn/architecture.png" alt="GoatVPN architecture diagram" width="900" />
 </p>
 
-- 📱 **Clients** — iOS, Android, React web and a Plasmo browser extension consume the same API surface.
-- ⚙️ **API** — a **NestJS** backend on **AWS** centralizes auth, subscriptions, server metadata and VPN provisioning flows.
-- 🗄️ **Data** — **MongoDB Atlas** stores users, subscriptions and server metadata; **Redis** handles cache and queue workloads.
-- 💳 **Payments** — **Stripe**, **Cryptomus** and **NoxPay** support card, crypto and alternative checkout flows.
-- 📈 **Growth & monitoring** — subscription events feed **Google Tag Manager** and **Meta**, while **Slack** and **New Relic** support ops and observability.
-- 🔐 **VPN fleet** — **WireGuard** servers are managed through **WGDashboard** and provisioned across **DataPacket** and **IS Hosting**.
+| Layer | Implementation |
+| --- | --- |
+| 📱 **Clients** | iOS, Android, React web and a Plasmo browser extension consume the same API surface. |
+| ⚙️ **API** | a **NestJS** backend on **AWS** centralizes auth, subscriptions, server metadata and VPN provisioning flows. |
+| 🗄️ **Data** | **MongoDB Atlas** stores users, subscriptions and server metadata; **Redis** handles cache and queue workloads. |
+| 💳 **Payments** | **Stripe**, **Cryptomus** and **NoxPay** support card, crypto and alternative checkout flows. |
+| 📈 **Growth & monitoring** | subscription events feed **Google Tag Manager** and **Meta**, while **Slack** and **New Relic** support ops and observability. |
+| 🔐 **VPN fleet** | **WireGuard** servers are managed through **WGDashboard** and provisioned across **DataPacket** and **IS Hosting**. |
 
 ---
 
@@ -310,12 +342,14 @@ Production architecture for the VPN platform:
 
 **What it does**
 
-- 💬 **WhatsApp ingestion** — connects to WhatsApp through Baileys, maps incoming private/group messages and persists normalized conversation history.
-- 🏢 **Multi-tenant routing** — resolves tenant, WhatsApp account, environment and bot profile before persistence or AI execution.
-- 🧠 **AI support triage** — uses deterministic reviewers first, then queues LLM analysis with guardrails, priority, suggested action, audience and evidence.
-- 🔁 **Provider fallback** — runs **Gemini** first and falls back to **OpenAI**, with model fallback per provider.
-- 🧾 **Auditability** — stores request text, prompt, analyzed messages, provider/model, token usage, guardrail result and error details for every analysis.
-- 🔐 **Admin API** — exposes authenticated conversation and analysis endpoints for a frontend dashboard.
+| Capability | Description |
+| --- | --- |
+| 💬 **WhatsApp ingestion** | connects to WhatsApp through Baileys, maps incoming private/group messages and persists normalized conversation history. |
+| 🏢 **Multi-tenant routing** | resolves tenant, WhatsApp account, environment and bot profile before persistence or AI execution. |
+| 🧠 **AI support triage** | uses deterministic reviewers first, then queues LLM analysis with guardrails, priority, suggested action, audience and evidence. |
+| 🔁 **Provider fallback** | runs **Gemini** first and falls back to **OpenAI**, with model fallback per provider. |
+| 🧾 **Auditability** | stores request text, prompt, analyzed messages, provider/model, token usage, guardrail result and error details for every analysis. |
+| 🔐 **Admin API** | exposes authenticated conversation and analysis endpoints for a frontend dashboard. |
 
 **🏗️ Architecture**
 
@@ -323,12 +357,14 @@ Production architecture for the VPN platform:
   <img src="assets/wpp-ai/architecture.png" alt="WPP AI architecture diagram" width="900" />
 </p>
 
-- 📲 **WhatsApp adapter** — Baileys receives messages, maps protocol payloads, loads media when possible and sends quoted replies.
-- 🧩 **Orchestration** — the orchestrator decides between direct deterministic replies and queued LLM jobs.
-- 🧱 **Persistence** — MongoDB stores tenants, accounts, bot profiles, conversations, messages and analysis snapshots.
-- 🚦 **Queue** — Redis/Bull decouples WhatsApp ingestion from model execution, retries and final replies.
-- 🛡️ **Guardrails** — prompts and model outputs are wrapped and validated before replies reach users.
-- 🤖 **AI providers** — Gemini and OpenAI are abstracted behind provider fallback logic for reliability and cost control.
+| Layer | Implementation |
+| --- | --- |
+| 📲 **WhatsApp adapter** | Baileys receives messages, maps protocol payloads, loads media when possible and sends quoted replies. |
+| 🧩 **Orchestration** | the orchestrator decides between direct deterministic replies and queued LLM jobs. |
+| 🧱 **Persistence** | MongoDB stores tenants, accounts, bot profiles, conversations, messages and analysis snapshots. |
+| 🚦 **Queue** | Redis/Bull decouples WhatsApp ingestion from model execution, retries and final replies. |
+| 🛡️ **Guardrails** | prompts and model outputs are wrapped and validated before replies reach users. |
+| 🤖 **AI providers** | Gemini and OpenAI are abstracted behind provider fallback logic for reliability and cost control. |
 
 **🎬 Demo**
 
@@ -337,6 +373,34 @@ WPP AI handling a WhatsApp support conversation through the LLM orchestration fl
 <div align="center">
   <video src="https://github.com/user-attachments/assets/23a0b776-4367-4208-8a95-28c33621d69d" controls width="640"></video>
 </div>
+
+---
+
+### 🧩 Velrino UI — Accessible React Components
+
+**[Velrino UI](https://github.com/velrino/velrino-ui)** is a library of **accessible, themeable React components** with optional **sci-fi surfaces**, built for independent React applications. It grew out of HackUniverse's gallery, dialog frame and globe loader, while keeping each application's colors, fonts, brand, localization and business logic independent.
+
+<p align="center">
+  <a href="https://velrino.github.io/velrino-ui/" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/velrino/velrino-ui/raw/main/docs/assets/images/velrino-ui-showcase.png" alt="Velrino UI component gallery with the Cyan theme and semantic color tokens" width="900" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://velrino.github.io/velrino-ui/" target="_blank" rel="noopener noreferrer">🌐 Interactive gallery</a> ·
+  <a href="https://github.com/velrino/velrino-ui" target="_blank" rel="noopener noreferrer">💻 Source code</a>
+</p>
+
+**What it provides**
+
+| Area | Description |
+| --- | --- |
+| 🧩 **React components** | Buttons, inputs, selects, dialogs, panels, tabs, sheets, step navigation and loading feedback. |
+| ♿ **Accessible interactions** | Keyboard navigation, focus management, localized controls and reduced-motion support. |
+| 🎨 **Application-owned themes** | Semantic CSS tokens preserve each application's palette, fonts and branding. |
+| ✨ **Optional sci-fi surfaces** | Standard surfaces by default, with decorative frames enabled per component or through a shared provider. |
+| 🌐 **Interactive gallery** | Live component examples with English/Portuguese copy, theme switching and surface previews. |
+| 🤝 **Shared across projects** | Used by [my portfolio](https://velrino.co/) and [HackUniverse](https://hackuniverse.vercel.app/). |
 
 ---
 
